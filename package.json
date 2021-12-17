@@ -1,0 +1,34 @@
+{
+    "name": "create-ci-cd-config",
+    "version": "1.0.0",
+    "description": "A CLI to bootstrap the CI/CD config for Node.js projects.",
+    "main": "src/index.js",
+    "bin": {
+        "create-ci-cd-config": "bin/create-ci-cd-config"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "cli",
+        "create-ci-cd-config"
+    ],
+    "author": "Mike Trout",
+    "license": "ISC",
+    "dependencies": {
+        "arg": "^5.0.1",
+        "chalk": "^4.1.0",
+        "esm": "^3.2.25",
+        "inquirer": "^8.2.0",
+        "ncp": "^2.0.0"
+    },
+    "devDependencies": {
+        "eslint": "^8.4.1",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-plugin-import": "^2.25.3",
+        "prettier": "^2.5.1"
+    }
+}
